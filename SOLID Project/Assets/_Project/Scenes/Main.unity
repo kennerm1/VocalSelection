@@ -884,6 +884,7 @@ GameObject:
   - component: {fileID: 842431823}
   - component: {fileID: 842431822}
   - component: {fileID: 842431821}
+  - component: {fileID: 842431824}
   m_Layer: 0
   m_Name: Selection Responses
   m_TagString: Untagged
@@ -932,6 +933,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &842431824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842431820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffb5111ff88d544c955ebcecf3edde2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particleEffect: {fileID: 3606440128017295889, guid: f35cd4c64bb8ad9408a6e85bc58bd319,
+    type: 3}
 --- !u!1 &924172250
 GameObject:
   m_ObjectHideFlags: 0
